@@ -39,3 +39,4 @@ Carthage/Build
 *.xcworkspacedata
 Example/ByvLocalizationsIB.xcworkspace
 Example/Pods/
+Example/generator
