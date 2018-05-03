@@ -21,13 +21,14 @@ Pod::Spec.new do |s|
 ByvLocalizations extensions to allow setting localized strings from Interface builder
                        DESC
 
-  s.homepage         = 'https://github.com/adrianByv/ByvLocalizationsIB'
+  s.homepage         = 'https://github.com/byvapps/ByvLocalizationsIB'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'adrianByv' => 'adrian@byvapps.com' }
-  s.source           = { :git => 'https://github.com/adrianByv/ByvLocalizationsIB.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/byvapps/ByvLocalizationsIB.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
+  s.swift_version = '4.0'
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'ByvLocalizationsIB/Classes/**/*'
