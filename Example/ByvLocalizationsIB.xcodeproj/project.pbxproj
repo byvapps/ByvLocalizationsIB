@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		07832D474CDD7D6040EE8A6C /* Pods_ByvLocalizationsIB_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C26AA974C42F6F1AA82420D /* Pods_ByvLocalizationsIB_Tests.framework */; };
+		3A55355C209ABF0D004A4062 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A55355E209ABF0D004A4062 /* Localizable.strings */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -29,6 +30,16 @@
 
 /* Begin PBXFileReference section */
 		338946A762C6E95DD2702178 /* Pods-ByvLocalizationsIB_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ByvLocalizationsIB_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ByvLocalizationsIB_Tests/Pods-ByvLocalizationsIB_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3A55355D209ABF0D004A4062 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3A55355F209ABF26004A4062 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		3A553560209ABF26004A4062 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		3A553561209ABF26004A4062 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3A553562209ABF2B004A4062 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		3A553563209ABF2C004A4062 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		3A553564209ABF2C004A4062 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3A553565209ABF38004A4062 /* eu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = eu; path = eu.lproj/Main.strings; sourceTree = "<group>"; };
+		3A553566209ABF38004A4062 /* eu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = eu; path = eu.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		3A553567209ABF38004A4062 /* eu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = eu; path = eu.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4572DF32EB93CC719375835A /* Pods-ByvLocalizationsIB_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ByvLocalizationsIB_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ByvLocalizationsIB_Example/Pods-ByvLocalizationsIB_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4ABAD4C72111BBFAC635715B /* Pods-ByvLocalizationsIB_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ByvLocalizationsIB_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ByvLocalizationsIB_Tests/Pods-ByvLocalizationsIB_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5D1675B4A76AAF10A68DC380 /* Pods-ByvLocalizationsIB_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ByvLocalizationsIB_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ByvLocalizationsIB_Example/Pods-ByvLocalizationsIB_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -44,9 +55,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		60F1B0D3EF9BFFF5E38638EA /* Pods_ByvLocalizationsIB_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ByvLocalizationsIB_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C26AA974C42F6F1AA82420D /* Pods_ByvLocalizationsIB_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ByvLocalizationsIB_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8104281279214413E895122F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		C2AA43F1683645053D26EE1A /* ByvLocalizationsIB.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ByvLocalizationsIB.podspec; path = ../ByvLocalizationsIB.podspec; sourceTree = "<group>"; };
-		CC889CF4D2647FDBF304B7DB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8104281279214413E895122F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C2AA43F1683645053D26EE1A /* ByvLocalizationsIB.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ByvLocalizationsIB.podspec; path = ../ByvLocalizationsIB.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CC889CF4D2647FDBF304B7DB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +100,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		3A553559209ABE8A004A4062 /* translations */ = {
+			isa = PBXGroup;
+			children = (
+				3A55355E209ABF0D004A4062 /* Localizable.strings */,
+			);
+			name = translations;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +132,7 @@
 		607FACD21AFB9204008FA782 /* Example for ByvLocalizationsIB */ = {
 			isa = PBXGroup;
 			children = (
+				3A553559209ABE8A004A4062 /* translations */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -228,6 +248,9 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
+				fr,
+				eu,
 			);
 			mainGroup = 607FACC71AFB9204008FA782;
 			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
@@ -246,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				3A55355C209ABF0D004A4062 /* Localizable.strings in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -286,10 +310,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ByvLocalizationsIB_Example/Pods-ByvLocalizationsIB_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ByvLocalizations/ByvLocalizations.framework",
 				"${BUILT_PRODUCTS_DIR}/ByvLocalizationsIB/ByvLocalizationsIB.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ByvLocalizations.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ByvLocalizationsIB.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,10 +372,24 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		3A55355E209ABF0D004A4062 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A55355D209ABF0D004A4062 /* en */,
+				3A553561209ABF26004A4062 /* es */,
+				3A553564209ABF2C004A4062 /* fr */,
+				3A553567209ABF38004A4062 /* eu */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				607FACDA1AFB9204008FA782 /* Base */,
+				3A55355F209ABF26004A4062 /* es */,
+				3A553562209ABF2B004A4062 /* fr */,
+				3A553565209ABF38004A4062 /* eu */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -358,6 +398,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				607FACDF1AFB9204008FA782 /* Base */,
+				3A553560209ABF26004A4062 /* es */,
+				3A553563209ABF2C004A4062 /* fr */,
+				3A553566209ABF38004A4062 /* eu */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -369,6 +412,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -422,6 +466,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;

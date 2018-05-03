@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/ByvLocalizationsIB.svg?style=flat)](https://cocoapods.org/pods/ByvLocalizationsIB)
 [![Platform](https://img.shields.io/cocoapods/p/ByvLocalizationsIB.svg?style=flat)](https://cocoapods.org/pods/ByvLocalizationsIB)
 
+[ByvLocalizations](https://github.com/byvapps/ByvLocalizations) extensions to allow setting localized strings from Interface builder
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -16,7 +18,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ByvLocalizationsIB is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-```ruby
+```swift
 pod 'ByvLocalizationsIB'
 ```
 
